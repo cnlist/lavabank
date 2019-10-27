@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: admin
+  Date: 9/29/2019
+  Time: 11:59 PM
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Регистрация</title>
+    <style>
+        .ui-inputfield{
+            font-size: 10px !important;
+        }
+    </style>
+</h:head>
+
+<h:body>
+    <h:form>
+        <h:panelGrid columns="2" style="text-align: right; margin-right: 2px">
+            <h:column>Имя пользователя</h:column>
+            <h:column><p:inputText /> </h:column>
+
+            <h:column>Пароль</h:column>
+            <h:column><p:password /></h:column>
+
+            <h:column>Имя</h:column>
+            <h:column><p:inputText /></h:column>
+
+            <h:column>Фамилия</h:column>
+            <h:column><p:inputText /></h:column>
+
+            <h:column>Отчество</h:column>
+            <h:column><p:inputText /></h:column>
+
+            <h:column></h:column>
+            <h:column><p:commandButton value="Регистрация" /> </h:column>
+        </h:panelGrid>
+    </h:form>
+</h:body>
+
+</html>
